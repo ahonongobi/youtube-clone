@@ -1,0 +1,30 @@
+.videosRow{
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+.videosRow > img {
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+}
+.videoRow__text{
+ margin-left: 14px;
+}
+.videosRow__description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606060;
+}
+.videos__headline{
+   font-size: 12px; 
+   color: #606060;
+}
+.videosRow__subscribers{
+    font-weight: bolder;
+    color: rgb(84, 157, 211);
+}
+.videosRow__subs{
+    padding: 2px;
+    background-color: lightgray;
+}
